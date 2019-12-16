@@ -6,3 +6,5 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ## User Management
 + Sudo rights
 + Sudo rights without password
++ User add with skeleton directory
++ User add without home directory, no group, no shell
