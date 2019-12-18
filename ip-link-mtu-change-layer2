@@ -1,0 +1,1 @@
+ip link set mtu 1331 dev eth0
