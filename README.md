@@ -4,7 +4,11 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ![alt tag](https://emreovunc.com/images/tuxlinux.png)
 
 ## User Management
-+ Sudo rights
-+ Sudo rights without password
-+ User add with skeleton directory
-+ User add without home directory, no group, no shell
++ sudo rights
++ sudo rights without password
++ user add with skeleton directory
++ user add without home directory, no group, no shell
+
+## Network Configuration
++ ifconfig mtu change layer2 
++ ip link mtu change layer2
