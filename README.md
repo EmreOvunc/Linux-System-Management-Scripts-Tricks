@@ -15,3 +15,5 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 ## Remote Access
 + ssh key-based authentication
++ vnc server
++ vnc client
