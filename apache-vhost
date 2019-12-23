@@ -1,0 +1,16 @@
+nano /etc/apache2/sites-available/subdomain_emreovunc.conf
+a2ensite subdomain_emreovunc.conf
+systemctl reload apache2
+---
+<VirtualHost 172.16.10.10:80>
+  ServerName subdomain.emreovunc.com
+  ServerAdmin admin@emreovunc.com
+  DocumentRoot /subdomain/
+  ErrorLog ${APACHE_LOG_DIR}/error.log
+  CustomLog ${APACHE_LOG_DIR}/access.log combined
+<Directory /subdomain/>
+  Options Indexes FollowSymlinks
+  AllowOverride None
+  Require all granted
+</Directory>
+</VirtualHost>
