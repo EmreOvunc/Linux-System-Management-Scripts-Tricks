@@ -17,3 +17,6 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + ssh key-based authentication
 + vnc server
 + vnc client
+
+## HTTP Servers
++ apache vhost
