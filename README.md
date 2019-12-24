@@ -20,3 +20,4 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 ## HTTP Servers
 + apache vhost
++ apache basic authentication
