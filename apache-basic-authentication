@@ -1,0 +1,8 @@
+htpasswd -c /etc/apache2/apache_sec.users [username]
+nano -c /etc/apache2/sites-available/[confName].conf
+<Directory /secure/>
+				AuthType Basic
+				AuthName "Restricted Area !!!"
+				AuthUserFile apache_sec.users 
+				Require valid-user
+</Directory>
