@@ -12,6 +12,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ## Network Configuration
 + ifconfig mtu change layer2 
 + ip link mtu change layer2
++ rename network interface
 
 ## Remote Access
 + ssh key-based authentication
