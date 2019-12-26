@@ -37,7 +37,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ## DNS Servers
 - [ ] authoritative dns service
 - [ ] cache dns service
-- [ ] nfs file sharing 
+- [ ] dns service hardening
 
 ## DHCP Servers
 - [ ] dhcp server configuration
