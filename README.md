@@ -4,22 +4,46 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ![alt tag](https://emreovunc.com/images/tuxlinux.png)
 
 ## User Management
-+ [sudo rights](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/sudo-rights)
-+ [sudo rights without password](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/sudo-rights-without-password)
-+ [user add with skeleton directory](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-with-skeleton-dir)
-+ [user add without home directory, no group, no shell](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-without-home-shell-group)
++ [x] [sudo rights](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/sudo-rights)
++ [x] [sudo rights without password](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/sudo-rights-without-password)
++ [x] [user add with skeleton directory](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-with-skeleton-dir)
++ [x] [user add without home directory, no group, no shell](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-without-home-shell-group)
+- [ ] user disk quota
 
 ## Network Configuration
-+ [ifconfig mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-mtu-change-layer2)
-+ [ip link mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-link-mtu-change-layer2)
-+ [ip route add](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-route-add)
-+ [rename network interface](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/rename-network-interface)
++ [x] [ifconfig mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-mtu-change-layer2)
++ [x] [ip link mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-link-mtu-change-layer2)
++ [x] [ip route add](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-route-add)
++ [x] [rename network interface](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/rename-network-interface)
 
 ## Remote Access
-+ [ssh key-based authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ssh-key-based-auth)
-+ [vnc server](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/vnc-server)
-+ [vnc client](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/vnc-client)
++ [x] [ssh key-based authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ssh-key-based-auth)
++ [x] [vnc server](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/vnc-server)
++ [x] [vnc client](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/vnc-client)
+- [ ] parallel-ssh
 
 ## HTTP Servers
-+ [apache vhost](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/apache-vhost)
-+ [apache basic authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/apache-basic-authentication)
++ [x] [apache vhost](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/apache-vhost)
++ [x] [apache basic authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/apache-basic-authentication)
+- [ ] nginx reverse proxy
+- [ ] squid cache proxy 
+
+## File Operations
+- [ ] anonymous vsftpd
+- [ ] samba file sharing
+- [ ] nfs file sharing 
+- [ ] rsync over ssh
+
+## DNS Servers
+- [ ] authoritative dns service
+- [ ] cache dns service
+- [ ] nfs file sharing 
+
+## DHCP Servers
+- [ ] dhcp server configuration
+- [ ] static host-ip
+
+## Firewall Service
+- [ ] iptables basics
+- [ ] iptables port forwarding
+- [ ] nftables
