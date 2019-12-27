@@ -47,3 +47,10 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [x] [iptables basics](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/iptables-basics)
 - [ ] iptables port forwarding
 - [ ] nftables
+
+## Hardening
+- [ ] openscap
+- [ ] apache trace-track
+- [ ] apache server signature
+- [ ] dns security
+- [ ] sftp deny deletion
