@@ -48,7 +48,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] iptables port forwarding
 - [ ] nftables
 
-## Hardening
+## Hardening
 - [ ] openscap
 - [ ] apache trace-track
 - [ ] apache server signature
