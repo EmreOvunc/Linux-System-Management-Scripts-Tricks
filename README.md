@@ -44,6 +44,6 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] static host-ip
 
 ## Firewall Service
-- [ ] iptables basics
+- [x] [iptables basics](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/iptables-basics)
 - [ ] iptables port forwarding
 - [ ] nftables
