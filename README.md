@@ -16,6 +16,8 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [ip link mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-link-mtu-change-layer2)
 + [x] [ip route add](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-route-add)
 + [x] [rename network interface](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/rename-network-interface)
+- [ ] ifconfig static ip
+- [ ] ip addr static ip
 
 ## Remote Access
 + [x] [ssh key-based authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ssh-key-based-auth)
