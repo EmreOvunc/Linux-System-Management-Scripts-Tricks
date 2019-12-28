@@ -8,7 +8,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [sudo rights without password](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/sudo-rights-without-password)
 + [x] [user add with skeleton directory](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-with-skeleton-dir)
 + [x] [user add without home directory, no group, no shell](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-without-home-shell-group)
-- [ ] user disk quota
+- [ ] [user disk quota](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-disk-quota)
 - [ ] openlap
 
 ## Network Configuration
