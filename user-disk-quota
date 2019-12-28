@@ -1,6 +1,6 @@
 sudo apt install quota quotatool
 sudo nano /etc/fstab
-# Add these parameters to options area
+#Add these parameters to options area
     usrquota,grpquota
 sudo touch /quota.user /quota.group
 chmod 600 /quota.*
