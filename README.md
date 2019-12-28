@@ -9,6 +9,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [user add with skeleton directory](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-with-skeleton-dir)
 + [x] [user add without home directory, no group, no shell](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-without-home-shell-group)
 - [ ] user disk quota
+- [ ] openlap
 
 ## Network Configuration
 + [x] [ifconfig mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-mtu-change-layer2)
@@ -54,3 +55,10 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] apache server signature
 - [ ] dns security
 - [ ] sftp deny deletion
+- [ ] disk encryption
+
+## Others
+- [ ] owncloud
+- [ ] rsyslog configuration
+- [ ] join a domain
+- [ ] gophish installation
