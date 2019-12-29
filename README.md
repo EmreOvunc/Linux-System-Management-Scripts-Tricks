@@ -60,6 +60,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] disk encryption
 
 ## Others
+- [ ] raid setup 
 - [ ] owncloud
 - [ ] rsyslog configuration
 - [ ] join a domain
