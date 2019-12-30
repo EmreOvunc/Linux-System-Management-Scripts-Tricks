@@ -17,8 +17,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [ip route add](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-route-add)
 + [x] [rename network interface](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/rename-network-interface)
 + [x] [ip addr static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-addr-static-ip)
-
-- [ ] ifconfig static ip
++ [x] [ifconfig static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-static-ip)
 
 ## Remote Access
 + [x] [ssh key-based authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ssh-key-based-auth)
