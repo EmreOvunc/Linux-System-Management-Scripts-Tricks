@@ -67,3 +67,4 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] join a domain
 - [ ] gophish installation
 - [ ] mongodb backup and restore
+- [ ] fail2ban
