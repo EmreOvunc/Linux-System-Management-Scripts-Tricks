@@ -1,7 +1,7 @@
 # Linux-System-Management-Scripts-Tricks
 Linux System Administrator &amp; Engineer Certification Tricks Management Scripts
 
-![alt tag](https://emreovunc.com/images/tuxlinux.png)
+![tux](https://emreovunc.com/images/tuxlinux.png)
 
 ## User Management
 + [x] [sudo rights](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/sudo-rights)
@@ -11,7 +11,9 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [user disk quota](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-disk-quota)
 - [ ] openlap
 
-## Network Configuration
+<img src="https://emreovunc.com/images/tux-network.png" height="100">
+
+## Network Configuration 
 + [x] [ifconfig mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-mtu-change-layer2)
 + [x] [ip link mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-link-mtu-change-layer2)
 + [x] [ip route add](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-route-add)
@@ -20,11 +22,15 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [ifconfig static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-static-ip)
 - [ ] dns nameservers
 
+<img src="https://emreovunc.com/images/tux-remote.png" height="100">
+
 ## Remote Access
 + [x] [ssh key-based authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ssh-key-based-auth)
 + [x] [vnc server](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/vnc-server)
 + [x] [vnc client](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/vnc-client)
 - [ ] parallel-ssh
+
+<img src="https://emreovunc.com/images/tux-http.png" height="100">
 
 ## HTTP Servers
 + [x] [apache vhost](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/apache-vhost)
@@ -32,25 +38,35 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] nginx reverse proxy
 - [ ] squid cache proxy 
 
+<img src="https://emreovunc.com/images/tux-fileops.png" height="100">
+
 ## File Operations
 - [ ] anonymous vsftpd
 - [ ] samba file sharing
 - [ ] nfs file sharing 
 - [ ] rsync over ssh
 
+<img src="https://emreovunc.com/images/tux-dns.png" height="100">
+
 ## DNS Servers
 - [ ] authoritative dns service
 - [ ] cache dns service
 - [ ] dns service hardening
 
+<img src="https://emreovunc.com/images/tux-dhcp.png" height="100">
+
 ## DHCP Servers
 - [ ] dhcp server configuration
 - [ ] static host-ip
+
+<img src="https://emreovunc.com/images/tux-firewall.png" height="100">
 
 ## Firewall Service
 + [x] [iptables basics](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/iptables-basics)
 - [ ] iptables port forwarding
 - [ ] nftables
+
+<img src="https://emreovunc.com/images/tux-hardening.png" height="100">
 
 ## Hardening
 - [ ] openscap
@@ -60,6 +76,8 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] sftp deny deletion
 - [ ] disk encryption
 
+<img src="https://emreovunc.com/images/tux-others.png" height="100">
+
 ## Others
 - [ ] raid setup 
 - [ ] owncloud
@@ -68,3 +86,5 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] gophish installation
 - [ ] mongodb backup and restore
 - [ ] fail2ban
+
+<img src="https://emreovunc.com/images/tux-other.png" height="100">
