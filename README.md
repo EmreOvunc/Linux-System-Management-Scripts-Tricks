@@ -42,7 +42,8 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-fileops.png" height="100">
 
 ## File Operations
-- [ ] anonymous vsftpd
+- [ ] user vsftpd configuration
+- [ ] anonymous vsftpd configuration
 - [ ] samba file sharing
 - [ ] nfs file sharing 
 - [ ] rsync over ssh
