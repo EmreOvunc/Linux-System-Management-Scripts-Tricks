@@ -23,6 +23,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [dns nameservers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dns-nameservers)
 - [ ] ip link change mac address
 - [ ] join wifi network
+- [ ] static routing
 
 <img src="https://emreovunc.com/images/tux-remote.png" height="100">
 
