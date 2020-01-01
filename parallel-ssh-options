@@ -1,0 +1,3 @@
+parallel-ssh -i -O StrictHostKeyChecking=no -h hosts.txt -l [username] -A [command]
+parallel-ssh -i -O StrictHostKeyChecking=no -h hosts.txt -l emre -A hostname
+parallel-ssh -i -O StrictHostKeyChecking=no -h hosts.txt -l emre -p P4ssw0rd! -P hostname
