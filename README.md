@@ -57,6 +57,9 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] raid setup 
 - [ ] swap space
 - [ ] encrypt swap space
+- [ ] add logical volume 
+- [ ] add physical volume 
+- [ ] add volume group 
 
 <img src="https://emreovunc.com/images/tux-disk.png" height="100">
 
