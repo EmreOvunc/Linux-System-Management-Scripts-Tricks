@@ -53,6 +53,13 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 <img src="https://emreovunc.com/images/tux-dns.png" height="100">
 
+## Disk I/O
+- [ ] raid setup 
+- [ ] swap space
+- [ ] encrypt swap space
+
+<img src="https://emreovunc.com/images/tux-disk.png" height="100">
+
 ## DNS Servers
 - [ ] authoritative dns service
 - [ ] cache dns service
@@ -84,7 +91,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-others.png" height="100">
 
 ## Others
-- [ ] raid setup 
+
 - [ ] owncloud
 - [ ] rsyslog configuration
 - [ ] join a domain
