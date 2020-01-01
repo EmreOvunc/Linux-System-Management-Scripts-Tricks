@@ -22,6 +22,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [ifconfig static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-static-ip)
 - [ ] dns nameservers
 - [ ] ip link change mac address
+- [ ] join wifi network
 
 <img src="https://emreovunc.com/images/tux-remote.png" height="100">
 
@@ -88,5 +89,6 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] gophish installation
 - [ ] mongodb backup and restore
 - [ ] fail2ban
+- [ ] pihole
 
 <img src="https://emreovunc.com/images/tux-other.png" height="100">
