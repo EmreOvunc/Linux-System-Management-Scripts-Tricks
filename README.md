@@ -31,7 +31,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [vnc server](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/vnc-server)
 + [x] [vnc client](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/vnc-client)
 + [x] [parallel-ssh](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/parallel-ssh)
-- [ ] parallel-ssh options
++ [x] [parallel-ssh options](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/parallel-ssh-options)
 
 <img src="https://emreovunc.com/images/tux-http.png" height="100">
 
