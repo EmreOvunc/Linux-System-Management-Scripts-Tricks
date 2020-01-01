@@ -60,6 +60,9 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] add logical volume 
 - [ ] add physical volume 
 - [ ] add volume group 
+- [ ] extend logical volume 
+- [ ] extend physical volume 
+- [ ] extend volume group 
 
 <img src="https://emreovunc.com/images/tux-disk.png" height="100">
 
