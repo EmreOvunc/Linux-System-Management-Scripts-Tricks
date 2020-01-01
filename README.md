@@ -30,7 +30,8 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [ssh key-based authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ssh-key-based-auth)
 + [x] [vnc server](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/vnc-server)
 + [x] [vnc client](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/vnc-client)
-- [ ] parallel-ssh
++ [x] [parallel-ssh](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/parallel-ssh)
+- [ ] parallel-ssh options
 
 <img src="https://emreovunc.com/images/tux-http.png" height="100">
 
