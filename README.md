@@ -20,7 +20,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [rename network interface](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/rename-network-interface)
 + [x] [ip addr static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-addr-static-ip)
 + [x] [ifconfig static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-static-ip)
-- [ ] dns nameservers
++ [x] [dns nameservers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dns-nameservers)
 - [ ] ip link change mac address
 - [ ] join wifi network
 
