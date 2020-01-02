@@ -1,0 +1,14 @@
+sudo apt install quota quotatool
+sudo nano /etc/fstab
+#Add these parameters to options area
+    usrquota,grpquota
+sudo touch /quota.user /quota.group
+chmod 600 /quota.*
+shutdown -r
+#quotacheck -avug
+quotaon –avug
+#Edit user's quota
+edquota -u [username] -f /
+quota -u [username]
+#Summary
+repquota -a
