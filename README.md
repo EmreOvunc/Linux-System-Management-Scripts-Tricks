@@ -10,6 +10,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [user add without home directory, no group, no shell](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-without-home-shell-group)
 + [x] [user disk quota](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-disk-quota)
 - [ ] openlap
+- [ ] force user to change password
 
 <img src="https://emreovunc.com/images/tux-network.png" height="100">
 
