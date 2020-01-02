@@ -1,1 +1,0 @@
-useradd -M -N -r -s /bin/false -c "Disabled User" [username]
