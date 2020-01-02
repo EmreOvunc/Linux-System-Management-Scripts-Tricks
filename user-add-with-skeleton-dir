@@ -1,1 +1,0 @@
-useradd -m -k /etc/skel/ -s /bin/bash [username]
