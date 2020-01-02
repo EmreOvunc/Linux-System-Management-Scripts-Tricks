@@ -1,5 +1,0 @@
-su
-usermod -a -G sudo [username]
-##
-su
-echo "[username] ALL=(ALL:ALL) ALL" >> /etc/sudoers
