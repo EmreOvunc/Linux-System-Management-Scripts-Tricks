@@ -4,11 +4,11 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ![tux](https://emreovunc.com/images/tuxlinux.png)
 
 ## User Management
-+ [x] [sudo rights](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/sudo-rights)
-+ [x] [sudo rights without password](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/sudo-rights-without-password)
-+ [x] [user add with skeleton directory](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-with-skeleton-dir)
-+ [x] [user add without home directory, no group, no shell](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-add-without-home-shell-group)
-+ [x] [user disk quota](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-disk-quota)
++ [x] [sudo rights](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/sudo-rights)
++ [x] [sudo rights without password](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/sudo-rights-without-password)
++ [x] [user add with skeleton directory](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/user-add-with-skeleton-dir)
++ [x] [user add without home directory, no group, no shell](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/user-add-without-home-shell-group)
++ [x] [user disk quota](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/user-disk-quota)
 - [ ] openlap
 - [ ] force user to change password
 
