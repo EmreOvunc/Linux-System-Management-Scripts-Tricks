@@ -22,10 +22,10 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [ip addr static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-addr-static-ip)
 + [x] [ifconfig static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-static-ip)
 + [x] [dns nameservers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dns-nameservers)
++ [x] [netplan static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/netplan-static-ip)
 - [ ] ip link change mac address
 - [ ] join wifi network
 - [ ] static routing
-- [ ] netplan static ip
 
 <img src="https://emreovunc.com/images/tux-remote.png" height="100">
 
