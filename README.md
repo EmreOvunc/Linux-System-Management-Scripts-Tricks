@@ -25,6 +25,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] ip link change mac address
 - [ ] join wifi network
 - [ ] static routing
+- [ ] netplan static ip
 
 <img src="https://emreovunc.com/images/tux-remote.png" height="100">
 
