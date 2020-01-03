@@ -1,0 +1,2 @@
+nano /etc/udev/rules.d/70-persistent-net.rules
+SUBSYSTEM=="net", ACTION=="add", ATTR{address}=="aa:bb:cc:11:22:33", NAME="n3t%n"
