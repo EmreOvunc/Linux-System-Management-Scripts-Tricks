@@ -15,14 +15,14 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-network.png" height="100">
 
 ## Network Configuration 
-+ [x] [ifconfig mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-mtu-change-layer2)
-+ [x] [ip link mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-link-mtu-change-layer2)
-+ [x] [ip route add](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-route-add)
-+ [x] [rename network interface](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/rename-network-interface)
-+ [x] [ip addr static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ip-addr-static-ip)
-+ [x] [ifconfig static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/ifconfig-static-ip)
-+ [x] [dns nameservers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dns-nameservers)
-+ [x] [netplan static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/netplan-static-ip)
++ [x] [ifconfig mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/ifconfig-mtu-change-layer2)
++ [x] [ip link mtu change layer2](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/ip-link-mtu-change-layer2)
++ [x] [ip route add](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/ip-route-add)
++ [x] [rename network interface](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/rename-network-interface)
++ [x] [ip addr static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/ip-addr-static-ip)
++ [x] [ifconfig static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/ifconfig-static-ip)
++ [x] [dns nameservers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/dns-nameservers)
++ [x] [netplan static ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/netplan-static-ip)
 - [ ] ip link change mac address
 - [ ] join wifi network
 - [ ] static routing
