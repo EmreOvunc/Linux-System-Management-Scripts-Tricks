@@ -1,0 +1,9 @@
+#nano -c /etc/wpa_supplicant/wpa_supplicant.conf
+network={
+  ssid="EmreWireless"
+  psk="P4ssw0rd"
+  proto=RSN
+  key_mgmt=WPA-PSK
+  pairwise=CCMP
+  auth_alg=OPEN
+}
