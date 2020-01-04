@@ -1,0 +1,6 @@
+sudo apt install pssh -y
+# pssh == parallel-ssh some dist.
+parallel-ssh -i -h hosts.txt [command]
+parallel-ssh -i -h hosts.txt hostname
+#echo "10.0.0.1" > hosts.txt
+#echo "10.0.0.2" >> hosts.txt
