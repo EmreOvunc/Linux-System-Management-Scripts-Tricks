@@ -1,2 +1,0 @@
-apt install tightvncserver 
-vncserver --localhost no
