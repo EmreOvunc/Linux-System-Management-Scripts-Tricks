@@ -47,7 +47,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-fileops.png" height="100">
 
 ## File Operations
-+ [x] [user vsftpd configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-vsftpd-config)
++ [x] [user vsftpd configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/file-operations/user-vsftpd-config)
 - [ ] anonymous vsftpd configuration
 - [ ] samba file sharing
 - [ ] nfs file sharing 
