@@ -1,2 +1,0 @@
-apt install xtightvncviewer
-vncviewer localhost:1
