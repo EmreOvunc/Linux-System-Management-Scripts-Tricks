@@ -11,6 +11,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [user disk quota](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/user-disk-quota)
 - [ ] openlap
 - [ ] force user to change password
+- [ ] lock user after failed login attempts
 
 <img src="https://emreovunc.com/images/tux-network.png" height="100">
 
