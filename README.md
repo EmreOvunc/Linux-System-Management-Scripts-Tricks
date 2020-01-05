@@ -50,7 +50,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ## File Operations
 + [x] [user vsftpd configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/file-operations/user-vsftpd-config)
 + [x] [anonymous vsftpd configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/file-operations/anon-vsftpd-config)
-- [ ] samba file sharing
++ [x] [samba anonymous file sharing](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/file-operations/samba-anonymous-file-sharing)
 - [ ] nfs file sharing 
 - [ ] rsync over ssh
 
