@@ -1,0 +1,14 @@
+sudo apt install samba -y
+sudo mkdir /sambaAnon
+sudo chown nobody:nogroup -R /sambaAnon
+sudo chmod 777 -R /sambaAnon
+sudo nano /etc/samba/smb.conf
+[shared]
+   comment = SharedDirectories
+   browseable = yes
+   read only = no
+   create mask = 0765
+   directory mask = 0765
+   guest ok = yes
+   path = /sambaAnon
+sudo systemctl restart smbd
