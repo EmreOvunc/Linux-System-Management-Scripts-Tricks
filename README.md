@@ -40,8 +40,8 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-http.png" height="100">
 
 ## HTTP Servers
-+ [x] [apache vhost](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/apache-vhost)
-+ [x] [apache basic authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/apache-basic-authentication)
++ [x] [apache vhost](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-vhost)
++ [x] [apache basic authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-basic-authentication)
 - [ ] nginx reverse proxy
 - [ ] squid cache proxy 
 
