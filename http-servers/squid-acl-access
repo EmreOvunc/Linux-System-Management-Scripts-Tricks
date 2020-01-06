@@ -1,0 +1,7 @@
+#nano /etc/squid/squid.conf
+http_port 3128
+acl mynetwork src 172.16.237.0/24
+acl blockedsite url_regex ^http://.*testbank.com/.*$
+http_access deny blockedsite
+http_access allow mynetwork
+http_access deny all
