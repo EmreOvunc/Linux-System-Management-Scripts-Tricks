@@ -1,0 +1,5 @@
+sudo apt install squid -y
+#parent cache
+cache_peer parent.example.com parent 3128 3130
+#child cache
+cache_peer child.example.com sibling 3128 3130
