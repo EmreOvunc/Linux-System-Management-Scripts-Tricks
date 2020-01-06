@@ -84,7 +84,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-firewall.png" height="100">
 
 ## Firewall Service
-+ [x] [iptables basics](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/iptables-basics)
++ [x] [iptables basics](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/firewall-service/iptables-basics)
 - [ ] iptables port forwarding
 - [ ] nftables
 
