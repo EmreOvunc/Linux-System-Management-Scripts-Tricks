@@ -1,0 +1,17 @@
+#Logging new connections
+iptables -A INPUT -p tcp -m tcp -m state --state NEW -j LOG --log-level info --log-prefix "L0G_New"
+
+#Drop all packets to Port 22/tcp
+iptables -A INPUT -p tcp -m tcp --dport 22 -j DROP
+
+#Reject new connections to Port 22/tcp
+iptables -A INPUT -p tcp -m tcp --dport 22 -m state --state ESTABLISHED -j REJECT
+
+#Save
+iptables-save > /etc/iptables/rules.v4
+
+#Restore
+iptables-restore /etc/iptables/rules.v4.bck
+
+#Flush all rules
+iptables -F
