@@ -59,6 +59,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 ## Disk I/O
 + [x] [raid info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/raid-info) 
++ [x] [raid setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/raid-setup) 
 - [ ] swap space
 - [ ] encrypt swap space
 - [ ] add logical volume 
