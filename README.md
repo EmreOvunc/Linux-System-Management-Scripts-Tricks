@@ -58,7 +58,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-dns.png" height="100">
 
 ## Disk I/O
-- [ ] raid setup 
++ [x] [raid info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/raid-info) 
 - [ ] swap space
 - [ ] encrypt swap space
 - [ ] add logical volume 
