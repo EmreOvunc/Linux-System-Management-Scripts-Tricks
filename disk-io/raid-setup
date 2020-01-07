@@ -1,0 +1,4 @@
+sudo mdadm --create /dev/md0 --level=1 --raid-disks=2 /dev/sdaX /dev/sdbX
+sudo mkfs -t ext4 /dev/md0
+mdadm --detail --scan >> /etc/mdadm.conf
+echo "/dev/md0 /raidmount ext4 defaults 0 2" >> /etc/fstab
