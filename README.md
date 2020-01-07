@@ -1,6 +1,8 @@
 # Linux-System-Management-Scripts-Tricks
 Linux System Administrator &amp; Engineer Certification Tricks Management Scripts
 
+*Linux Security & Linux Hardening & Linux Management & Linux Configuration*
+
 ![tux](https://emreovunc.com/images/tuxlinux.png)
 
 ## User Management
