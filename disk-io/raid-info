@@ -1,0 +1,6 @@
+Raid 0: data splitting, performance
+Raid 1: mirroring, duplicate
+Raid 5: at least 3 disks, parity stripe
+Raid 6: at least 4 disks dual parity
+#
+cat /proc/mdstat
