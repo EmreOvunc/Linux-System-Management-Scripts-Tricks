@@ -9,7 +9,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [user add with skeleton directory](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/user-add-with-skeleton-dir)
 + [x] [user add without home directory, no group, no shell](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/user-add-without-home-shell-group)
 + [x] [user disk quota](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/user-disk-quota)
-- [ ] openlap
+- [ ] join ldap as a client
 - [ ] force user to change password
 - [ ] lock user after failed login attempts
 
