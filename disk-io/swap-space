@@ -1,0 +1,6 @@
+sudo swapon --show
+sudo fallocate -l 1G /swaps
+sudo chmod 600 /swaps
+sudo mkswap /swaps
+sudo swapon /swaps
+echo "/swaps none swap sw 0 0" >> /etc/fstab
