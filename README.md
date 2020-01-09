@@ -105,8 +105,8 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-others.png" height="100">
 
 ## Others
++ [x] [hide the grub menu](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/hide-the-grub-menu)
 + [x] [pihole setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/pihole-setup)
-- [ ] hide the grub menu
 - [ ] owncloud
 - [ ] rsyslog configuration
 - [ ] join a domain
