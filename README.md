@@ -1,6 +1,11 @@
 # Linux-System-Management-Scripts-Tricks
 Linux System Administrator &amp; Engineer Certification Tricks Management Scripts
 
+
+[![](https://img.shields.io/github/issues/EmreOvunc/Linux-System-Management-Scripts-Tricks)](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/issues)
+[![](https://img.shields.io/github/stars/EmreOvunc/Linux-System-Management-Scripts-Tricks)](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/stargazers)
+[![](https://img.shields.io/github/forks/EmreOvunc/Linux-System-Management-Scripts-Tricks)](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/network/members)
+
 *Linux Security & Linux Hardening & Linux Management & Linux Configuration*
 
 ![tux](https://emreovunc.com/images/tuxlinux.png)
