@@ -106,6 +106,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 ## Others
 + [x] [pihole setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/pihole-setup)
+- [ ] hide the grub menu
 - [ ] owncloud
 - [ ] rsyslog configuration
 - [ ] join a domain
