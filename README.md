@@ -49,8 +49,8 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ## HTTP Servers
 + [x] [apache vhost](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-vhost)
 + [x] [apache basic authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-basic-authentication)
-+ [ ] [squid cache proxy](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-cache-proxy)
-+ [ ] [squid acl access restrictions](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-acl-access)
++ [x] [squid cache proxy](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-cache-proxy)
++ [x] [squid acl access restrictions](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-acl-access)
 - [ ] nginx reverse proxy
 
 <img src="https://emreovunc.com/images/tux-fileops.png" height="100">
@@ -68,7 +68,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [raid info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/raid-info) 
 + [x] [raid setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/raid-setup) 
 + [x] [swap space](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/swap-space)
-- [ ] raid hot spares
++ [x] [raid hot spares](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/raid-hot-spares)
 - [ ] encrypt swap space
 - [ ] add logical volume 
 - [ ] add physical volume 
