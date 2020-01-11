@@ -80,7 +80,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-disk.png" height="100">
 
 ## DNS Servers
-- [ ] authoritative dns service
++ [x] [authoritative dns service](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dns-servers/authoritative-dns-service)
 - [ ] cache dns service
 - [ ] dns service hardening
 
