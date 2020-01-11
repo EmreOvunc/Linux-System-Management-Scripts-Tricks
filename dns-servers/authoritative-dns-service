@@ -36,4 +36,5 @@ nano -c /etc/bind/example.zone
 			foo	IN	A	192.168.1.11
 			bar	IN	CNAME	www.example.com.
 			$GENERATE 20-30 host$ IN A 192.168.1.$
-          
+#
+sudo service bind9 restart
