@@ -1,0 +1,27 @@
+sudo apt install bind9 -y
+#
+nano -c /etc/bind/named.conf.options
+  acl goodclients {
+          192.168.1.0/24;
+          localhost;
+  };
+
+  options {
+          directory "/var/cache/bind";
+
+          recursion yes;
+          allow-query { goodclients; };
+
+          forwarders {
+                  1.1.1.1;
+                  9.9.9.9;
+          };
+          forward only;
+
+          dnssec-validation auto;
+
+          auth-nxdomain no; 
+          listen-on-v6 { any; };
+  };
+  #
+  sudo service bind9 restart
