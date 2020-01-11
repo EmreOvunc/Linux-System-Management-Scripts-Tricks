@@ -1,0 +1,39 @@
+sudo apt install bind9 -y
+#
+nano -c /etc/bind/named.conf.options
+        options {
+        directory "/var/cache/bind";
+
+        dnssec-validation auto;
+
+        auth-nxdomain no; 
+
+        listen-on { any; };
+        allow-query { any; };
+        recursion yes;
+        listen-on-v6 { 127.0.0.1; };
+        };
+#
+nano -c /etc/bind/named.conf.local
+           zone "example.com." {
+			type master;
+			file "/etc/bind/example.zone";
+			};
+#
+nano -c /etc/bind/example.zone
+                     ; BIND reverse data file for empty rfc1918 zone
+			$TTL	30
+			@	IN	SOA	example.com. admin.example.com. (
+						 2019100601		; Serial
+						 3H				; Refresh
+						 1H				; Retry
+						 2H				; Expire
+						 1H )			; Negative Cache TTL
+			;
+			@	IN	NS	localhost.
+			www	IN	A	192.168.1.45
+			www	IN	AAAA	fe80::2d9:d0ff:1fdc:c0ef
+			foo	IN	A	192.168.1.11
+			bar	IN	CNAME	www.example.com.
+			$GENERATE 20-30 host$ IN A 192.168.1.$
+          
