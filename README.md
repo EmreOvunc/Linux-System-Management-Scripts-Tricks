@@ -107,6 +107,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 - [ ] dns security
 - [ ] sftp deny deletion
 - [ ] disk encryption
+- [ ] ssh key hardening
 
 <img src="https://emreovunc.com/images/tux-others.png" height="100">
 
