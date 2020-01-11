@@ -81,7 +81,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 ## DNS Servers
 + [x] [authoritative dns service](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dns-servers/authoritative-dns-service)
-- [ ] cache dns service
+- [ ] forwarding dns service
 - [ ] dns service hardening
 
 <img src="https://emreovunc.com/images/tux-dhcp.png" height="100">
