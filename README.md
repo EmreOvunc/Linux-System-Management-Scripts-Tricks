@@ -116,7 +116,6 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [pihole setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/pihole-setup)
 - [ ] owncloud
 - [ ] rsyslog configuration
-- [ ] join a domain
 - [ ] gophish installation
 - [ ] mongodb backup and restore
 - [ ] fail2ban
