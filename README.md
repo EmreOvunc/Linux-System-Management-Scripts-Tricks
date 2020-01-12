@@ -69,7 +69,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [raid setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/raid-setup) 
 + [x] [swap space](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/swap-space)
 + [x] [raid hot spares](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/raid-hot-spares)
-- [ ] encrypt swap space
++ [x] [encrypt swap space](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/encrypt-swap-space)
 - [ ] add logical volume 
 - [ ] add physical volume 
 - [ ] add volume group 
