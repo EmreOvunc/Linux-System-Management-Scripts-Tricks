@@ -1,0 +1,6 @@
+cat /proc/swaps
+sudo swapoff /dev/sda1
+sudo cryptsetup luksFormat /dev/sda1
+sudo cryptsetup luksOpen /dev/sda1 swapcrypt
+sudo mkswap /dev/mapper/swapcrypt
+sudo swapon /dev/mapper/swapcrypt
