@@ -95,7 +95,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ## Firewall Service
 + [x] [iptables basics](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/firewall-service/iptables-basics)
 - [ ] iptables port forwarding
-- [ ] iptables persistent
+- [ ] iptables persistent save
 - [ ] nftables
 
 <img src="https://emreovunc.com/images/tux-hardening.png" height="100">
