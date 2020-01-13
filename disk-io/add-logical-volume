@@ -1,0 +1,2 @@
+sudo pvcreate /dev/sdb1
+sudo pvcreate /dev/sdc1
