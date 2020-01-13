@@ -1,0 +1,2 @@
+sudo lvcreate -L 50G -n mylv vg
+sudo lvcreate -L [size]G -n [name] [volumegroup name]
