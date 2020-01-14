@@ -114,9 +114,9 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ## Others
 + [x] [hide the grub menu](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/hide-the-grub-menu)
 + [x] [pihole setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/pihole-setup)
-- [ ] owncloud
-- [ ] rsyslog server configuration
++ [x] [rsyslog server configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/rsyslog-server-configuration)
 - [ ] rsyslog client configuration
+- [ ] owncloud
 - [ ] gophish installation
 - [ ] mongodb backup and restore
 - [ ] fail2ban
