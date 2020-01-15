@@ -1,0 +1,38 @@
+#nano /etc/rsyslog.conf
+module(load="imuxsock") # provides support for local system logging
+module(load="imklog" permitnonkernelfacility="on")
+
+$ActionFileDefaultTemplate RSYSLOG_TraditionalFileFormat
+
+$RepeatedMsgReduction on
+
+$FileOwner syslog
+$FileGroup adm
+$FileCreateMode 0640
+$DirCreateMode 0755
+$Umask 0022
+$PrivDropToUser syslog
+$PrivDropToGroup syslog
+
+$WorkDirectory /var/spool/rsyslog
+
+$IncludeConfig /etc/rsyslog.d/*.conf
+*.* @[SERVER_IP]:[SERVER_PORT]
+
+#nano /etc/rsyslog.d/50-default.conf
+auth,authpriv.*			/var/log/auth.log
+*.*					/var/log/syslog
+cron.*				/var/log/cron.log
+daemon.*			/var/log/daemon.log
+kern.*				/var/log/kern.log
+lpr.*				/var/log/lpr.log
+mail.*				/var/log/mail.log
+user.*				/var/log/user.log
+mail.info			/var/log/mail.info
+mail.warn			/var/log/mail.warn
+mail.err			/var/log/mail.err
+
+*.=debug                                /var/log/debug
+*.=info;*.=notice;*.=warn               /var/log/messages
+
+*.emerg				:omusrmsg:*
