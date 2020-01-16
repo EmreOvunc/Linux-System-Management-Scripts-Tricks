@@ -1,0 +1,8 @@
+#Copy file from local to remote machine.
+rsync -v -e ssh /local/path/file [username]@[IP]:/remote/path/
+
+#Copy file from remote to local machine.
+rsync -v -e ssh [username]@[IP]:/remote/path/file /local/path/
+
+#SSH options
+rsync -v -e "ssh -p2222" /local/path/file [username]@[IP]:/remote/path/
