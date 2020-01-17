@@ -1,0 +1,2 @@
+sudo vgcreate myvgtest /dev/xvda1 /dev/xvdb1
+sudo vgcreate [volumegroup name] [Physical Volume(s)]
