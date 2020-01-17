@@ -72,7 +72,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [encrypt swap space](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/encrypt-swap-space)
 + [x] [add logical volume](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/add-logical-volume) 
 + [x] [add physical volume](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/add-physical-volume)
-- [ ] add volume group 
++ [x] [add volume group](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/add-volume-group)
 - [ ] extend logical volume 
 - [ ] extend physical volume 
 - [ ] extend volume group 
