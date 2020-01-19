@@ -1,0 +1,2 @@
+lvextend -L +500M /dev/vg/mylv
+lvextend -L [SIZE][UNIT] /dev/[logicalvolume] 
