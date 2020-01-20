@@ -1,0 +1,2 @@
+vgextend myvg /dev/sdc1
+vgextend [volume group] [physical volume(s)]
