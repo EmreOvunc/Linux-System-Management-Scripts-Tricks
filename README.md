@@ -74,8 +74,8 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [add physical volume](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/add-physical-volume)
 + [x] [add volume group](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/add-volume-group)
 + [x] [extend logical volume](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/extend-logical-volume) 
++ [x] [extend volume group](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/extend-volume-group)
 - [ ] extend physical volume 
-- [ ] extend volume group 
 
 <img src="https://emreovunc.com/images/tux-disk.png" height="100">
 
