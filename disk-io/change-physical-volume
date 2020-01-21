@@ -1,0 +1,6 @@
+fdisk -l
+fdisk /dev/sda
+>> p
+>> Delete & Add & Resize Operations
+>> w
+partprobe -s
