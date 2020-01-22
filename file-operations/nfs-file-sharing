@@ -1,0 +1,8 @@
+#Server
+mkdir /nfsshare
+nano /etc/exports
+    /nfsshare 10.0.0.0/24(rw,sync,no_root_squash)
+#Client
+mount -t nfs 10.0.0.1:/nfsshare /mnt/nfsshare
+nano /etc/fstab
+    10.0.0.1:/nfsshare /mnt/nfsshare  nfs defaults 0 0
