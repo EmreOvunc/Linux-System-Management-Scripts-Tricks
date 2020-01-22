@@ -60,7 +60,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [anonymous vsftpd configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/file-operations/anon-vsftpd-config)
 + [x] [samba anonymous file sharing](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/file-operations/samba-anonymous-file-sharing)
 + [x] [rsync over ssh](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/file-operations/rsync-over-ssh)
-- [ ] nfs file sharing 
++ [x] [nfs file sharing](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/file-operations/nfs-file-sharing)
 
 <img src="https://emreovunc.com/images/tux-dns.png" height="100">
 
