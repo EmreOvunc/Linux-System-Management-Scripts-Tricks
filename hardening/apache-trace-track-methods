@@ -1,0 +1,4 @@
+#nano /etc/apache2/conf-enabled/security.conf
+TraceEnable off
+#to check it
+curl -i -X TRACE http://127.0.0.1
