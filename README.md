@@ -101,8 +101,8 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-hardening.png" height="100">
 
 ## Hardening
++ [x] [apache trace-track](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/apache-trace-track-methods)
 - [ ] openscap
-- [ ] apache trace-track
 - [ ] apache server signature
 - [ ] dns security
 - [ ] sftp deny deletion
