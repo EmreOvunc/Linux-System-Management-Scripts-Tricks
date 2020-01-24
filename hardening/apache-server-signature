@@ -1,0 +1,2 @@
+nano /etc/apache2/conf-enabled/security.conf
+    ServerSignature off
