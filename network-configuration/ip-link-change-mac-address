@@ -1,0 +1,3 @@
+ip link set down [interface]
+ip link set dev [interface] address aa:bb:cc:11:22:33
+ip link set up [interface]
