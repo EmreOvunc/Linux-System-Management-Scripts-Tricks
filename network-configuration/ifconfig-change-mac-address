@@ -1,0 +1,3 @@
+ifconfig [interface] down
+ifconfig [interface] hw ether aa:bb:cc:11:22:33
+ifconfig [interface] up
