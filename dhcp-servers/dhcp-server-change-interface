@@ -1,0 +1,2 @@
+nano /etc/default/isc-dhcp-server
+    INTERFACESv4="eth0"
