@@ -89,7 +89,8 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 ## DHCP Servers
 + [x] [dhcp server configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dhcp-servers/dhcp-server-configuration)
-- [ ] static host-ip
+- [ ] dhcp server change interface
+- [ ] dhcp static host-ip
 
 <img src="https://emreovunc.com/images/tux-firewall.png" height="100">
 
