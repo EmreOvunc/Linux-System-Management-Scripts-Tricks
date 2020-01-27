@@ -1,0 +1,5 @@
+nano /etc/dhcp/dhcpd.conf
+  host hostnameofpc {
+    hardware ethernet 00:AA:11:BB:22:CC;
+    fixed-address 10.0.0.100;
+  }
