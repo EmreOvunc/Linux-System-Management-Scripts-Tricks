@@ -1,0 +1,3 @@
+iptables -A OUTPUT -o eth0 -m owner --uid-owner 1002 -j DROP
+#
+iptables -A [CHAINNAME] [OTHEROPTIONS] -m owner --uid-owner [UIDOFTHEUSER] -j [JOBNAME]
