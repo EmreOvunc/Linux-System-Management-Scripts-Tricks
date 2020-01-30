@@ -1,0 +1,3 @@
+sudo apt install iptables-persistent
+sudo netfilter-persistent save
+sudo iptables-save > /etc/iptables/rules.v4
