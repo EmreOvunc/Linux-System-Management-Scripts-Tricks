@@ -1,0 +1,14 @@
+#List
+nft list ruleset
+
+#Logging new connection
+nft add rule ip filter INPUT  ct state new  counter log prefix "L0G_New" level info
+
+#Drop all packets to Port 22/tcp
+add rule ip filter INPUT tcp dport 22 counter drop
+
+#Drop output spesific IP
+nft add rule ip filter output ip daddr 10.10.10.10 drop
+
+#Save
+nft list ruleset > /etc/nftables.conf
