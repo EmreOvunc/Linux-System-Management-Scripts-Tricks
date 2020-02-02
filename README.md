@@ -34,7 +34,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [join wifi network](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/join-wifi-network)
 + [x] [ip link change mac address](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/ip-link-change-mac-address)
 + [x] [ifconfig change mac address](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/ifconfig-change-mac-address)
-- [ ] static routing
++ [x] [static routing netplan](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/network-configuration/static-routes-netplan)
 
 <img src="https://emreovunc.com/images/tux-remote.png" height="100">
 
