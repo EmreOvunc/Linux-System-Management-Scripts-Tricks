@@ -1,0 +1,13 @@
+#nano /etc/netplan/50-cloud-init.yaml
+network:
+    ethernets:
+        enp0s3:
+            addresses: [192.168.1.103/24, 10.0.0.1/24]
+            gateway4: 192.168.1.1
+            routes:
+              - to: 10.0.0.0/24
+                via: 10.0.0.254
+            dhcp4: false
+            dhcp6: false
+    version: 2
+
