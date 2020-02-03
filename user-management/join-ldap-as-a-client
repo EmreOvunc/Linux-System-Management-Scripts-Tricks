@@ -1,0 +1,13 @@
+sudo apt install libnss-ldap libpam-ldap ldap-utils nscd -y
+	ldap://[serverip]:389
+	dc=example,dc=com
+	v3
+	cn=admin,dc=example,dc=com
+sudo pam-auth-update
+sudo nano /etc/pam.d/common-session
+	session required pam_mkhomedir.so skel=/etc/skel umask=077
+sudo nano /etc/nsswitch.conf
+	add -> ldap
+sudo systemctl restart nscd
+sudo systemctl enable nscd
+#to test -> getent passwd username
