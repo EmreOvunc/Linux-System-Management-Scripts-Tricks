@@ -1,0 +1,17 @@
+sudo apt install apache2 mariadb-server mariadb-client php php-mysql -y
+sudo mysql_secure_installation
+sudo rm -rf /var/www/html/index.html 
+sudo mysql -u root -p
+   CREATE DATABASE wordpress_db;
+   CREATE USER 'wp_user'@'localhost' IDENTIFIED BY 'password';
+   GRANT ALL ON wordpress_db.* TO 'wp_user'@'localhost' IDENTIFIED BY 'password';
+   FLUSH PRIVILEGES;
+   Exit;
+cd /tmp && wget https://wordpress.org/latest.tar.gz
+tar -xvf latest.tar.gz
+sudo cp -R wordpress /var/www/html/
+sudo chown www-data:www-data /var/www/html/wordpress/
+sudo chmod -R 755 /var/www/html/wordpress/
+sudo mkdir /var/www/html/wordpress/wp-content/uploads
+sudo chown -R www-data:www-data /var/www/html/wordpress/wp-content/uploads/
+# Go to -> http://SERVER/wordpress
