@@ -1,0 +1,4 @@
+sudo nano -c /etc/bind/named.conf.options 
+    allow-transfer {"none";};  
+    allow-recursion {"none";};  
+    recursion no;
