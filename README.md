@@ -110,7 +110,6 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [apache server signature](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/apache-server-signature)
 + [x] [randomized layout of virtual address space](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/randomized-layout-of-virtual-address-space)
 + [x] [openscap](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/openscap)
-- [ ] dns security
 - [ ] sftp deny deletion
 - [ ] disk encryption
 - [ ] ssh key hardening
