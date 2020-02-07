@@ -83,7 +83,9 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ## DNS Servers
 + [x] [authoritative dns service](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dns-servers/authoritative-dns-service)
 + [x] [forwarding dns service](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dns-servers/forwarding-dns-service)
-- [ ] dns service hardening
++ [x] [dns service version hiding](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dns-servers/dns-service-version-hiding)
+- [ ] restrict zone transfer
+- [ ] disable dns recursion
 
 <img src="https://emreovunc.com/images/tux-dhcp.png" height="100">
 
