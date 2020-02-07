@@ -1,0 +1,4 @@
+sudo nano -c /etc/bind/named.conf.options 
+	version "Forbidden";
+	# to check -> dig -c CH -t txt version.bind @localhost
+sudo service bind9 restart
