@@ -1,0 +1,14 @@
+#Generate ACL
+	acl trusted-servers {  
+	10.20.30.40;  
+	10.20.30.41;  
+	};
+
+#Config 
+	zone example.com {  
+	type master; file "zones/example.com";  
+	allow-transfer { trusted-servers; };  
+	};  
+
+# to check -> host -T axfr example.com
+sudo service bind9 restart
