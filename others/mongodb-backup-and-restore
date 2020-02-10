@@ -6,4 +6,3 @@ mongodump --out=/backup/db1 --db=databaseName
 
 #Restore database
 mongorestore --db=databaseName /backup/db1
-
