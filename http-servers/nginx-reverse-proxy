@@ -1,0 +1,25 @@
+#Installation
+sudo apt install nginx -y
+
+#Configuration
+sudo nano /etc/nginx/sites-available/reverse-proxy.conf
+	server {
+        listen 80;
+        #listen [::]:80
+
+        access_log /var/log/nginx/reverse-access.log;
+        error_log /var/log/nginx/reverse-error.log;
+
+        location / {
+                    proxy_pass http://127.0.0.1:8000;
+ 	 }
+	}
+
+#Symbolic link to use
+ln -s /etc/nginx/sites-available/reverse-proxy.conf /etc/nginx/sites-enabled/reverse-proxy.conf
+
+#Test
+nginx -t
+
+#Reload
+sudo nginx -s reload
