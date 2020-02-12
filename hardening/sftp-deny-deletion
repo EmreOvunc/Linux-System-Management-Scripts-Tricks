@@ -1,0 +1,24 @@
+#Group
+groupadd sftpusers
+mkdir /sftp
+chmod 700 /sftp
+
+#Directory Permissions && Attributes
+usermod -a -G sftpusers [username]
+mv /home/[username] /sftp/
+chown -R root:root /sftp/[username]
+chmod 700 /sftp/[username]
+mkdir /sftp/[username]/uploads
+chown -R root:sftpusers /sftp/[username]/uploads
+chmod 750 /sftp/[username]/uploads
+mkdir /sftp/[username]/uploads/[username]
+chown -R [username]:sftpusers /sftp/[username]/uploads/[username]
+chmod 755 /sftp/[username]/uploads/[username]
+chattr -R +a /sftp/[username]/uploads/[username]
+
+#sshd.conf
+Subsystem sftp internal-sftp -u 0222
+Match Group sftpusers
+ForceCommand internal-sftp
+ChrootDirectory /sftp/%u/uploads/
+AllowGroups sftpusers
