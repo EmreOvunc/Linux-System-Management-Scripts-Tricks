@@ -1,0 +1,14 @@
+sudo apt install fail2ban -y
+sudo nano -cB /etc/fail2ban/jail.conf
+    [DEFAULT]
+    bantime = 24h
+    maxretry = 3
+    findtime  = 5m
+    #
+    [sshd]
+    enabled = true
+    port    = ssh
+    logpath = %(sshd_log)s
+    backend = %(sshd_backend)s
+sudo service fail2ban restart
+sudo systemctl enable fail2ban
