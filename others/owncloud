@@ -1,0 +1,34 @@
+#Installation
+wget https://download.owncloud.org/community/owncloud-latest.tar.bz2
+tar -xjf owncloud-latest.tar.bz2
+sudo cp -r owncloud /var/www
+
+#Apache2 Configuration
+sudo nano /etc/apache2/sites-available/owncloud.conf
+  Alias /owncloud "/var/www/owncloud/"
+
+  <Directory /var/www/owncloud/>
+    Options +FollowSymlinks
+    AllowOverride All
+
+   <IfModule mod_dav.c>
+    Dav off
+   </IfModule>
+  </Directory>
+ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
+a2enmod headers
+a2enmod env
+a2enmod dir
+a2enmod mime
+a2enmod unique_id
+sudo service apache2 restart
+sudo chown -R www-data:www-data /var/www/owncloud/
+
+#Database Configuration
+mysql -u root -p
+	CREATE DATABASE owncloud;
+	GRANT ALL ON owncloud.* to 'owncloud'@'localhost' IDENTIFIED BY 'database_password';
+	FLUSH PRIVILEGES;
+	EXIT;
+
+# Go to -> http://[IP]/
