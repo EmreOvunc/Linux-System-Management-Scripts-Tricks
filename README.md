@@ -124,7 +124,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [wordpress installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/wordpress-installation)
 + [x] [mongodb backup and restore](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/mongodb-backup-and-restore)
 + [x] [fail2ban](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/fail2ban)
-- [ ] owncloud
++ [x] [owncloud](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/owncloud)
 - [ ] gophish installation
 
 
