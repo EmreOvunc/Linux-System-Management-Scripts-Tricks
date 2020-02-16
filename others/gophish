@@ -1,0 +1,5 @@
+wget https://github.com/gophish/gophish/releases/download/v0.9.0/gophish-v0.9.0-linux-64bit.zip
+sudo unzip gophish-v0.9.0-linux-64bit.zip -d /opt/gophish
+sudo nano -c /opt/gophish/config.json #Change config parameter
+sudo ./gophish 
+#Creds admin:gophish
