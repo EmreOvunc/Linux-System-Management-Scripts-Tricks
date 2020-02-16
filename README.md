@@ -111,8 +111,6 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [randomized layout of virtual address space](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/randomized-layout-of-virtual-address-space)
 + [x] [openscap](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/openscap)
 + [x] [sftp deny deletion](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/sftp-deny-deletion)
-- [ ] disk encryption
-- [ ] ssh key hardening
 
 <img src="https://emreovunc.com/images/tux-others.png" height="100">
 
@@ -125,7 +123,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [mongodb backup and restore](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/mongodb-backup-and-restore)
 + [x] [fail2ban](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/fail2ban)
 + [x] [owncloud](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/owncloud)
-- [ ] gophish installation
++ [x] [gophish installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/gophish)
 
 
 <img src="https://emreovunc.com/images/tux-other.png" height="100">
