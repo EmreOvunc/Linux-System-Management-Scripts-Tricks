@@ -103,7 +103,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [iptables persistent save](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/firewall-service/iptables-persistent-save)
 + [x] [iptables port forwarding](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/firewall-service/iptables-port-forwarding)
 + [x] [nftables basics](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/firewall-service/nftables-basics)
-- [ ] iptables as a service 
++ [x] [iptables as a service](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/firewall-service/iptables-as-a-service)
 
 <img src="https://emreovunc.com/images/tux-hardening.png" height="100">
 
