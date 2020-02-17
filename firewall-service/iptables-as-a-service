@@ -1,0 +1,31 @@
+#nano /root/firewall.sh
+### BEGIN INIT INFO
+# Provides:          emo-firewall
+# Required-Start:    $all
+# Required-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:
+# Short-Description: emo-firewall-config
+### END INIT INFO
+#!/bin/bash
+/sbin/iptables -F
+/sbin/iptables -P INPUT ACCEPT
+/sbin/iptables -P OUTPUT ACCEPT
+/sbin/iptables -P FORWARD ACCEPT
+/sbin/iptables -A INPUT -s 10.10.10.0/24 -p tcp --dport 22 -j DROP
+/sbin/iptables -A OUTPUT -d 10.10.10.0/24 -p tcp --sport 22 -j DROP
+/sbin/iptables-save
+exit 0
+
+#nano /etc/systemd/system/firewall-emo.service
+Description=Emo Firewall Configuration
+After=network.target
+
+[Service]
+ExecStart=/bin/bash /root/firewall.sh
+
+[Install]
+WantedBy=default.target
+
+#Enable service
+systemctl enable firewall-emo
