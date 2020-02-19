@@ -1,0 +1,7 @@
+sudo apt install libpam-google-authenticator -y
+sudo nano /etc/pam.d/sshd
+	auth required pam_google_authenticator.so
+sudo nano /etc/ssh/sshd_config
+	ChallengeResponseAuthentication yes
+sudo service sshd restart
+google-authenticator
