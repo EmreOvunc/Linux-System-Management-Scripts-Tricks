@@ -41,6 +41,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 ## Remote Access
 + [x] [ssh key-based authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/remote-access/ssh-key-based-auth)
++ [x] [ssh two factor authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/remote-access/ssh-two-factor-auth)
 + [x] [vnc server](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/remote-access/vnc-server)
 + [x] [vnc client](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/remote-access/vnc-client)
 + [x] [parallel-ssh](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/remote-access/parallel-ssh)
