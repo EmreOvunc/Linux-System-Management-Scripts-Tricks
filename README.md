@@ -119,6 +119,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 <img src="https://emreovunc.com/images/tux-others.png" height="100">
 
 ## Others
++ [x] [redis server performance](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/redis-server-performance)
 + [x] [hide the grub menu](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/hide-the-grub-menu)
 + [x] [pihole setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/pihole-setup)
 + [x] [rsyslog server configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/rsyslog-server-configuration)
