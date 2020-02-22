@@ -1,0 +1,2 @@
+#nano .bashrc #add or append to PS1
+PS1='[`date  +"%d-%b-%y %T"`] > '
