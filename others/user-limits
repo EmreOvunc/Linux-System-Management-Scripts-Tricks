@@ -1,0 +1,5 @@
+#Show
+ulimit -a
+
+#Change soft limit for stack size to 8192,
+ulimit -S -s 8192
