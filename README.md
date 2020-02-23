@@ -130,5 +130,5 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [owncloud](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/owncloud)
 + [x] [gophish installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/gophish)
 + [x] [bash terminal timestamp](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/bash_terminal_timestamp)
-
++ [x] [user limits](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/user-limits) 
 <img src="https://emreovunc.com/images/tux-other.png" height="100">
