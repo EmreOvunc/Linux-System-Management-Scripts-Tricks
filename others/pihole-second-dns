@@ -1,0 +1,3 @@
+#sudo nano /etc/dnsmasq.d/02-pihole-dhcp.conf
+dhcp-option=6,FirstDNSIP,SecondDNSIP
+sudo /etc/init.d/pihole-FTL restart
