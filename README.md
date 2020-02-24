@@ -122,6 +122,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [redis server performance](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/redis-server-performance)
 + [x] [hide the grub menu](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/hide-the-grub-menu)
 + [x] [pihole setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/pihole-setup)
++ [x] [pihole second dns](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/pihole-second-dns)
 + [x] [rsyslog server configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/rsyslog-server-configuration)
 + [x] [rsyslog client configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/rsyslog-client-configuration)
 + [x] [wordpress installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/wordpress-installation)
