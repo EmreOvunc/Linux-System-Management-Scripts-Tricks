@@ -2,4 +2,3 @@ sudo nano /etc/modprobe.d/block_usb.conf
     install usb-storage /bin/true
 sudo nano /etc/modprobe.d/blacklist.conf
     blacklist usb-storage
-
