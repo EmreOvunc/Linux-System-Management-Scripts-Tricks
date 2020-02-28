@@ -1,0 +1,2 @@
+sudo nano /etc/dhcp/dhcpd.conf
+    ddns-update-style none;
