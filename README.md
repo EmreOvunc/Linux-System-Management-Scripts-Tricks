@@ -96,6 +96,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [dhcp server configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dhcp-servers/dhcp-server-configuration)
 + [x] [dhcp server change interface](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dhcp-servers/dhcp-server-change-interface)
 + [x] [dhcp static host-ip](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dhcp-servers/dhcp-static-host-ip)
++ [x] [disable dynamic dns](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/dhcp-servers/disable-dynamic-dns)
 
 <img src="https://emreovunc.com/images/tux-firewall.png" height="100">
 
