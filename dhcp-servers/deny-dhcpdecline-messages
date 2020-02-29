@@ -1,0 +1,3 @@
+sudo nano /etc/dhcp/dhcpd.conf
+    deny declines;
+#to prevent exhaust the DHCP server pool.
