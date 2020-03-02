@@ -10,6 +10,11 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 ![tux](https://emreovunc.com/images/tuxlinux.png)
 
+## Information
+- [ ] cpu info
+
+<img src="https://emreovunc.com/images/tux-info.png" height="100">
+
 ## User Management
 + [x] [sudo rights](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/sudo-rights)
 + [x] [sudo rights without password](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/sudo-rights-without-password)
