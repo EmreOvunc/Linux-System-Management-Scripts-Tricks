@@ -11,7 +11,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 ![tux](https://emreovunc.com/images/tuxlinux.png)
 
 ## Information
-+ [x] [cpu info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/info/cpu-info)
++ [x] [cpu info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/info/cpu-info)
 
 <img src="https://emreovunc.com/images/tux-info.png" height="100">
 
