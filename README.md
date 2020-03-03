@@ -12,6 +12,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 ## Information
 + [x] [cpu info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/info/cpu-info)
++ [x] [kernel info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/info/kernel-info)
 
 <img src="https://emreovunc.com/images/tux-info.png" height="100">
 
