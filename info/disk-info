@@ -1,0 +1,2 @@
+df -h
+sudo fdisk -l
