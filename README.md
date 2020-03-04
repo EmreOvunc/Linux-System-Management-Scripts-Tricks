@@ -61,6 +61,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [apache restrict extensions](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-restrict-extensions)
 + [x] [squid cache proxy](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-cache-proxy)
 + [x] [squid acl access restrictions](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-acl-access)
++ [x] [squid spoofing headers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-spoofing-headers)
 + [x] [nginx reverse proxy](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/nginx-reverse-proxy)
 
 <img src="https://emreovunc.com/images/tux-fileops.png" height="100">
