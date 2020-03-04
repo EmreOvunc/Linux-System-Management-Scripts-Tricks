@@ -1,0 +1,3 @@
+request_header_access User-Agent deny all
+request_header_replace User-Agent Test Agent 1.2
+
