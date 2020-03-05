@@ -1,0 +1,5 @@
+request_header_access X-Forwarded-For deny all
+request_header_access Via deny all
+request_header_access User-Agent deny all
+request_header_access Connection deny all
+request_header_replace Connection closed
