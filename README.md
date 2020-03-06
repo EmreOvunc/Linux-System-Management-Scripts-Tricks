@@ -15,6 +15,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [kernel info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/info/kernel-info)
 + [x] [ram info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/info/ram-info)
 + [x] [disk info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/info/disk-info)
++ [x] [gpu info](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/info/gpu-info)
 
 <img src="https://emreovunc.com/images/tux-info.png" height="100">
 
