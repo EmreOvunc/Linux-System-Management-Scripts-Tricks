@@ -1,0 +1,4 @@
+sudo fdisk /dev/sdX
+  p #printing partitions
+  d #delete
+  w #write table to disk
