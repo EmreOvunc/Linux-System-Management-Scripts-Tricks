@@ -1,0 +1,5 @@
+#nano ~/.ssh/config
+Host pihole
+    HostName 10.0.0.1
+    User pi
+#ssh pihole
