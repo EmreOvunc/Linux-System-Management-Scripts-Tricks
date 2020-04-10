@@ -130,6 +130,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [openscap](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/openscap)
 + [x] [sftp deny deletion](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/sftp-deny-deletion)
 + [x] [squid remove headers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/squid-remove-headers)
++ [x] [rsyslog](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/hardening/rsyslog)
 
 <img src="https://emreovunc.com/images/tux-others.png" height="100">
 
