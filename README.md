@@ -74,6 +74,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [squid spoofing headers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-spoofing-headers)
 + [x] [squid removing headers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-remove-headers)
 + [x] [squid acl block-list](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-acl-blocklist)
++ [x] [squid ssl config](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-ssl-config)
 + [x] [squid service](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-service)
 
 <img src="https://emreovunc.com/images/tux-proxy.png" height="100">
