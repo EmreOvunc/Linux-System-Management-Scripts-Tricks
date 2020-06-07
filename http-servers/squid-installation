@@ -8,5 +8,8 @@ sudo make
 sudo make install
 sudo touch /var/log/squid/cache.log
 sudo chown root:syslog /var/log/squid/cache.log 
-sudo chmod 777 /var/log/squid/cache.log 
+sudo chmod 777 /var/log/squid/cache.log
+sudo touch /var/log/squid/access.log
+sudo chown root:syslog /var/log/squid/access.log 
+sudo chmod 777 /var/log/squid/access.log
 sudo squid -k parse
