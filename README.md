@@ -63,6 +63,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [apache vhost](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-vhost)
 + [x] [apache basic authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-basic-authentication)
 + [x] [apache restrict extensions](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-restrict-extensions)
++ [x] [squid installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-installation)
 + [x] [squid cache proxy](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-cache-proxy)
 + [x] [squid acl access restrictions](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-acl-access)
 + [x] [squid spoofing headers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-spoofing-headers)
