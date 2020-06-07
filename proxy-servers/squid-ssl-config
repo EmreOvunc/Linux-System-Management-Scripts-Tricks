@@ -1,0 +1,11 @@
+#!/bin/bash
+cd /etc/squid
+sudo openssl req -new -newkey rsa:4096 -days 3640 -nodes -x509 -keyout squidCA.pem -out squidCA.pem
+sudo openssl x509 -in squidCA.pem -outform DER -out squid.der
+sudo chmod 400 squidCA.pem
+sudo /usr/lib/squid/security_file_certgen -c -s /var/spool/squid/ssl_db -M 16MB
+
+#nano -c /etc/squid/squid.conf
+http_port 3128 ssl-bump generate-host-certificates=on dynamic_cert_mem_cache_size=16MB cert=/etc/squid/squidCA.pem
+ssl_bump server-first all
+sslproxy_cert_error deny all

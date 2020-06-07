@@ -63,16 +63,20 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [apache vhost](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-vhost)
 + [x] [apache basic authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-basic-authentication)
 + [x] [apache restrict extensions](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-restrict-extensions)
-+ [x] [squid installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-installation)
-+ [x] [squid cache proxy](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-cache-proxy)
-+ [x] [squid acl access restrictions](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-acl-access)
-+ [x] [squid spoofing headers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-spoofing-headers)
-+ [x] [squid removing headers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-remove-headers)
-+ [x] [squid acl block-list](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-acl-blocklist)
-+ [x] [squid service](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/squid-service)
 + [x] [nginx reverse proxy](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/nginx-reverse-proxy)
 
 <img src="https://emreovunc.com/images/tux-fileops.png" height="100">
+
+## Proxy Servers
++ [x] [squid installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-installation)
++ [x] [squid cache proxy](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-cache-proxy)
++ [x] [squid acl access restrictions](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-acl-access)
++ [x] [squid spoofing headers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-spoofing-headers)
++ [x] [squid removing headers](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-remove-headers)
++ [x] [squid acl block-list](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-acl-blocklist)
++ [x] [squid service](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/proxy-servers/squid-service)
+
+<img src="https://emreovunc.com/images/tux-proxy.png" height="100">
 
 ## File Operations
 + [x] [user vsftpd configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/file-operations/user-vsftpd-config)
