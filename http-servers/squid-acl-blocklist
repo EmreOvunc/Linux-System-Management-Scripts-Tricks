@@ -1,0 +1,3 @@
+acl blockedList dstdomain "/etc/squid/blocked"
+http_access deny blockedList
+
