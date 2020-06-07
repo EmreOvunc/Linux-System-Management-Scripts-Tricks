@@ -1,0 +1,12 @@
+#!/bin/bash
+wget http://www.squid-cache.org/Versions/v4/squid-4.11.tar.xz
+tar xvf squid-4.11.tar.xz
+cd squid-4.11
+sudo apt install build-essential libxml2-dev libecap3-dev libssl-dev -y
+./configure --prefix=/usr --includedir=${prefix}/include --mandir=${prefix}/share/man --infodir=${prefix}/share/info --sysconfdir=/etc --localstatedir=/var --libexecdir=${prefix}/lib/squid3 --srcdir=. --disable-maintainer-mode --disable-dependency-tracking --disable-silent-rules --datadir=/usr/share/squid --sysconfdir=/etc/squid --libexecdir=/usr/lib/squid --mandir=/usr/share/man --enable-inline --disable-arch-native --enable-async-io=8 --enable-storeio=ufs,aufs,diskd,rock --enable-removal-policies=lru,heap --enable-delay-pools --enable-cache-digests --enable-icap-client --enable-follow-x-forwarded-for --enable-auth-basic=DB,fake,getpwnam --enable-auth-digest=file --enable-auth-ntlm=fake --enable-url-rewrite-helpers=fake --enable-eui --enable-esi --enable-icmp --enable-zph-qos --enable-ecap --disable-translation --with-swapdir=/var/spool/squid --with-logdir=/var/log/squid --with-pidfile=/var/run/squid.pid --with-filedescriptors=65536 --with-large-files --with-default-user=proxy --enable-linux-netfilter CFLAGS=-g --with-openssl --enable-ssl-crtd
+sudo make
+sudo make install
+sudo touch /var/log/squid/cache.log
+sudo chown root:syslog /var/log/squid/cache.log 
+sudo chmod 777 /var/log/squid/cache.log 
+sudo squid -k parse
