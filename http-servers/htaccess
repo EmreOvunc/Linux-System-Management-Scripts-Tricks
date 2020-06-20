@@ -1,0 +1,10 @@
+Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+Header set X-XSS-Protection "1; mode=block"
+Header set X-Content-Type-Options nosniff
+Header always append X-Frame-Options SAMEORIGIN
+Header Referrer-Policy: no-referrer-when-downgrade
+Header set Access-Control-Allow-Origin "https://emreovunc.com"
+Header set Access-Control-Allow-Credentials true
+Header Cache-Control: no-cache, no-store, must-revalidate
+Header Pragma: no-cache
+
