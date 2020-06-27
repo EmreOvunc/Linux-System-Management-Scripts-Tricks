@@ -1,0 +1,2 @@
+#nano ~/.bashrc
+HISTCONTROL=ignoredups:erasedups
