@@ -1,0 +1,15 @@
+apt install apache2 -y
+wget https://download.limesurvey.org/latest-stable-release/limesurvey4.3.13+200824.zip -O /var/www/html/limesurvey.zip
+apt install php7.2 php7.2-xml php7.2-common php7.2-mbstring php7.2-mysql mariadb-server -y
+sudo systemctl restart apache2
+cd /var/www/html
+unzip limesurvey.zip 
+rm -rf limesurvey.zip index.html
+chown www-data:www-data -R lime*
+mysql_secure_installation
+mysql -u root -p
+   CREATE DATABASE limesurvey_db;
+   CREATE USER 'limeusr'@'localhost' IDENTIFIED BY 'password';
+   GRANT ALL ON limesurvey_db.* TO 'limeusr'@'localhost' IDENTIFIED BY 'password';
+   FLUSH PRIVILEGES;
+   Exit;

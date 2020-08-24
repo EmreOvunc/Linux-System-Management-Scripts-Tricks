@@ -153,6 +153,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [rsyslog server configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/rsyslog-server-configuration)
 + [x] [rsyslog client configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/rsyslog-client-configuration)
 + [x] [wordpress installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/wordpress-installation)
++ [x] [limesurvey installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/limesurvey-installation)
 + [x] [mysql access denied error](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/mysql-access-denied-error)
 + [x] [mongodb backup and restore](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/mongodb-backup-and-restore)
 + [x] [fail2ban](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/fail2ban)
