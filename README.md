@@ -28,6 +28,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [force user to change password](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/force-user-to-change-password)
 + [x] [lock user after failed login attempts](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/lock-user-after-failed-login-attempts)
 + [x] [join ldap as a client](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/join-ldap-as-a-client)
++ [x] [alias creator (mkalias)](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/user-management/mkalias)
 
 <img src="https://emreovunc.com/images/tux-network.png" height="100">
 
