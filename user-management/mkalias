@@ -1,0 +1,227 @@
+#!/bin/bash
+
+## COLORS
+cyan='\e[0;36m' 
+green='\e[0;34m'
+okegreen='\033[1;92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[0;33m'
+BlueF='\e[1;34m' 
+RESET="\033[00m" 
+orange='\e[38;5;166m'
+grey='\e[1;90m'
+purple='\e[0;35m'
+
+error(){ 
+    echo -e "\e[1;31mERROR\033[00m : $1\033[00m" >&2 
+    echo -e "Use the \e[0;33m-h \033[00mor \e[0;33m--help\033[00m option to learn more" >&2 
+    exit 1 
+} 
+
+
+information(){
+
+	# information {type} {text} {whatIs}
+	# type : error, success, good, none
+	type=$1
+	text=$2
+	whatIs=$3
+	errorNumber=$3
+	
+	if [ $type == "error" ]; then
+		tput rc; tput ed
+		if [ $errorNumber == 1 ]; then
+			echo -e "$RESET[\e[1;31mx$RESET] $text :$red fail$RESET"
+		else
+			echo -e "$RESET[\e[1;31mx$RESET] $text :$red fail ($errorNumber)$RESET"
+		fi
+	elif [ $type == "success" ];then
+		tput rc; tput ed
+		echo -e "$RESET[\033[92m✓$RESET] $text :$okegreen successful$RESET"
+	elif [ $type == "good" ];then
+		tput rc; tput ed
+		echo -e "$RESET[\e[0;36m*$RESET] $text :$cyan already $whatIs$RESET"	
+	elif [ $type == "add" ];then
+		tput rc; tput ed
+		echo -en "$RESET[\e[0;35m+$RESET] $text..."	
+	elif [ $type == "none" ];then
+		tput sc
+		printf "$RESET[\e[1;90m-$RESET] $text..."
+		
+	fi
+}
+
+
+install(){
+	apps=('zenity' 'yad')
+
+	if [ "$INSTALL" = 'true' ] && [ "$PARMTS_PARSE" != ";;false;false;false;false" ];then
+		error "Bad parameters entered"
+	else
+		for SingleApp in ${apps[*]}
+		do
+			information "none" "Installation of $SingleApp"
+			sleep 0.5
+			
+			if ! which $SingleApp > /dev/null; then
+				sudo apt-get install $SingleApp > /dev/null 2>&1  || ((error=error+1))
+				if [ $error > "0" ]; then
+					information "error" "Installation of $SingleApp" "$error"
+				else
+					information "success" "Installation of $SingleApp"
+				fi  
+			else
+				information "good" "Installation of $SingleApp" "installed"
+			fi
+
+			sleep 0.5
+		done
+		
+		information "none" "Move the file mkalias in$BlueF /usr/local/bin/$RESET"	
+		sleep 0.5
+		sudo chmod +x mkalias && sudo cp mkalias /usr/local/bin/mkalias >/dev/null 2>&1 || ((errorCp=errorCp+1))
+		if [ ! $errorCp == "0" ]; then
+			information "error" "Move the file mkalias" "$errorCp"
+		else
+			information "success" "Move the file mkalias"
+		fi
+		echo "---------------------------------"
+		echo -e "You can execute aliaz with the command$BlueF mkalias$RESET"
+	fi
+}
+
+list(){
+		awk '/alias/' $HOME/.bash_aliases | sed 's/=/§/' | awk -F '§' '{{gsub("alias ","")} {gsub(/[\47]/,"")} print "\033[32m" $1 "\033[34m" " = " "\033[31m" $2 }'
+}
+
+usage(){ 
+    echo "Usage: mkalias [options]" 
+	echo ""
+	echo "OPTIONS (oneline) :"
+    echo "	--name (-n)	: Enter the name of your command" 
+    echo "	--command (-c)	: Enter command executed" 
+    echo "	--clear (-C)	: Clear terminal" 
+    echo "	--home (-H)	: Go to home" 
+    echo ""
+    echo "If the option --clear (-C) or --home (-H) if they are not entered, they are considered false and will not be taken into account when creating the alias."
+    echo ""
+    
+} 
+
+createCommand() {
+
+	if [ -z ${#NAME} ] && [ -z ${#COMMAND} ]
+	then
+		exit 0
+	else
+		if  [ "$CLEAR" = 'true' ] && [ "$mkHOME" = 'false' ];	then
+			echo alias "$NAME"="'""clear && $COMMAND""'" >> $DIR_ALIAS/.bash_aliases
+			
+		elif [ "$CLEAR" = 'false' ] && [ "$mkHOME"  = 'true' ]; then
+			echo alias "$NAME"="'""cd $HOME && $COMMAND""'" >> $DIR_ALIAS/.bash_aliases
+			
+		elif [ "$CLEAR" = 'true' ] && [ "$mkHOME"  = 'true' ]
+		then
+			echo alias "$NAME"="'""rest && $COMMAND""'" >> $DIR_ALIAS/.bash_aliases
+		else
+			echo alias "$NAME"="'""$COMMAND""'" >> $DIR_ALIAS/.bash_aliases
+		fi	
+		source $DIR_ALIAS/.bash_aliases
+		notify-send "mkalias" "Command $NAME created !"
+	fi
+
+}
+
+ifNull() {
+
+	if [ "$PARMTS_PARSE" = ';;false;false;false;false' ]; then
+		error "No parameters entered !"
+	fi
+	
+	if [ "$HELP" = 'false' ]; then
+	
+		if [ -z "$NAME" ] && [ -z "$COMMAND" ]; then
+			error "No value for parameters \e[1;34m--name\033[00m/\e[1;34m-n\033[00m and \e[1;34m--command\033[00m/\e[1;34m-c"
+		elif [ -z "$NAME" ]; then
+			error "No value for parameter \e[1;34m--name\033[00m/\e[1;34m-n"
+		elif [ -z "$COMMAND" ]; then
+			error "No value for parameter \e[1;34m--command\033[00m/\e[1;34m-c"
+		fi
+	fi
+	
+}
+
+
+NAME=
+COMMAND=
+CLEAR=false
+mkHOME=false
+GUI=false
+CLI=false
+HELP=false
+INSTALL=false
+LIST=false
+
+DIR=
+DIR_ALIAS="$HOME"
+
+for i in "$@"
+do
+case $i in
+    -h|--help)
+    HELP=true
+    usage
+    shift # past argument value
+    ;;
+	-i|--install)
+	INSTALL=true
+	shift
+	;;
+	-l|--list) 
+    LIST=true
+    shift
+    ;;
+	-n=*|--name=*)
+	NAME="${i#*=}"
+	shift
+	shift
+	;;
+	-c=*|--command=*)
+	COMMAND="${i#*=}"
+	shift
+	shift
+	;;
+    -C | --clear) 
+    CLEAR=true
+    shift
+    shift
+    ;;
+    -H | --home) 
+    mkHOME=true
+    shift
+    shift
+    ;;
+    *)
+    error "invalid parameters !"
+    shift
+    ;;
+esac
+done
+
+PARMTS_PARSE="$NAME;$COMMAND;$CLEAR;$mkHOME;$HELP;$LIST"
+
+if [ "$INSTALL" = 'true' ]; then
+	install
+elif [ "$INSTALL" = 'false' ] ; then	
+	if [ "$LIST" = 'true' ]; then
+		list
+	else
+		if [ -z "$NAME" ] || [ -z "$COMMAND" ]; then
+			ifNull
+		else
+			createCommand
+		fi
+	fi
+fi
