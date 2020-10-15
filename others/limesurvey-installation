@@ -1,7 +1,7 @@
 apt install apache2 -y
-wget https://download.limesurvey.org/latest-stable-release/limesurvey4.3.13+200824.zip -O /var/www/html/limesurvey.zip
-apt install php7.2 php7.2-xml php7.2-common php7.2-mbstring php7.2-mysql mariadb-server -y
-sudo systemctl restart apache2
+wget https://download.limesurvey.org/latest-stable-release/limesurvey4.3.21+201015.zip -O /var/www/html/limesurvey.zip
+apt install php7.4 php7.4-xml php7.4-common php7.4-mbstring php7.4-mysql mariadb-server -y
+systemctl restart apache2
 cd /var/www/html
 unzip limesurvey.zip 
 rm -rf limesurvey.zip index.html
