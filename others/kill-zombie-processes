@@ -1,1 +1,1 @@
-for p in $(ps axo pid,comm|grep -w defunct|awk '{print $1}'); do sudo kill -9 $p; done
+for p in $(ps -ef | grep defunct|awk '{print $3}'); do sudo kill -9 $p; done
