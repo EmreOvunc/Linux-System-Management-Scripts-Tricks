@@ -145,22 +145,26 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 
 <img src="https://emreovunc.com/images/tux-others.png" height="100">
 
+## Installation
++ [x] [pihole setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/pihole-setup)
++ [x] [pihole second dns](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/pihole-second-dns)
++ [x] [wordpress installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/wordpress-installation)
++ [x] [limesurvey installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/limesurvey-installation)
++ [x] [owncloud](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/owncloud-installation)
++ [x] [gophish installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/gophish-installation)
+
+<img src="https://emreovunc.com/images/tux-installation.png" height="100">
+
 ## Others
 + [x] [bash ignore duplicate entries](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/bash-ignore-duplicates)
 + [x] [kill zombie processes](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/kill-zombie-processes)
 + [x] [redis server performance](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/redis-server-performance)
 + [x] [hide the grub menu](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/hide-the-grub-menu)
-+ [x] [pihole setup](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/pihole-setup)
-+ [x] [pihole second dns](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/pihole-second-dns)
 + [x] [rsyslog server configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/rsyslog-server-configuration)
 + [x] [rsyslog client configuration](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/rsyslog-client-configuration)
-+ [x] [wordpress installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/wordpress-installation)
-+ [x] [limesurvey installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/limesurvey-installation)
 + [x] [mysql access denied error](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/mysql-access-denied-error)
 + [x] [mongodb backup and restore](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/mongodb-backup-and-restore)
 + [x] [fail2ban](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/fail2ban)
-+ [x] [owncloud](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/owncloud)
-+ [x] [gophish installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/gophish)
 + [x] [bash terminal timestamp](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/bash_terminal_timestamp)
 + [x] [user limits](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/user-limits) 
 + [x] [disable usb ports](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/others/disable-usb-ports)
