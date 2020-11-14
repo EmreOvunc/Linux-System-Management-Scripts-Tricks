@@ -150,7 +150,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [pihole second dns](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/pihole-second-dns)
 + [x] [wordpress installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/wordpress-installation)
 + [x] [limesurvey installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/limesurvey-installation)
-+ [x] [owncloud](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/owncloud-installation)
++ [x] [owncloud installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/owncloud-installation)
 + [x] [gophish installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/gophish-installation)
 
 <img src="https://emreovunc.com/images/tux-installation.png" height="100">
