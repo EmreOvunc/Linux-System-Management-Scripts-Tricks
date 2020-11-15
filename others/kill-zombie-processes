@@ -1,1 +1,1 @@
-for p in $(ps -ef | grep defunct|awk '{print $3}'); do sudo kill -9 $p; done
+for p in $(ps -ef | grep defunct|awk '{print $3}'|sort -u); do sudo kill -9 $p; done
