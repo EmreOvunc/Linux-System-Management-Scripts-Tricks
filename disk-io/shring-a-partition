@@ -1,0 +1,4 @@
+umount /dev/sdbX
+e2fsck -f /dev/sdbX
+resize2fs /dev/sdbX 6GB
+

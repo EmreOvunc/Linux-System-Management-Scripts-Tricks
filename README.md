@@ -104,6 +104,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [extend volume group](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/extend-volume-group)
 + [x] [change physical volume](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/disk-io/change-physical-volume)
 + [x] [delete a partition](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/tree/master/disk-io/delete-a-partition)
++ [x] [shrink a partition](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/tree/master/disk-io/shrink-a-partition)
 
 <img src="https://emreovunc.com/images/tux-disk.png" height="100">
 
