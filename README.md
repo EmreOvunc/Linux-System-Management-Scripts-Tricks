@@ -153,6 +153,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [wordpress installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/wordpress-installation)
 + [x] [limesurvey installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/limesurvey-installation)
 + [x] [owncloud installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/owncloud-installation)
++ [x] [nextcloud installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/nextcloud-installation)
 + [x] [gophish installation](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/installation/gophish-installation)
 
 <img src="https://emreovunc.com/images/tux-installation.png" height="100">
