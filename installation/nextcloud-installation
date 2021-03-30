@@ -9,16 +9,19 @@ apt install mariadb-server php7.4 php7.4-mysql php7.4-xml php7.4-zip php7.4-gd p
 
 #Apache2 Configuration
 sudo nano /etc/apache2/sites-available/nextcloud.conf
-  Alias /nextcloud "/var/www/nextcloud/"
+  <VirtualHost *:80>
+	ServerName nextcloud.example.com
 
-  <Directory /var/www/nextcloud/>
-    Options +FollowSymlinks
-    AllowOverride All
+	ServerAdmin webmaster@localhost
+	DocumentRoot /var/www/nextcloud
+	#LogLevel info ssl:warn
 
-   <IfModule mod_dav.c>
-    Dav off
-   </IfModule>
-  </Directory>
+	ErrorLog ${APACHE_LOG_DIR}/error.log
+	CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+	#Include conf-available/serve-cgi-bin.conf
+  </VirtualHost>
+
   
 ln -s /etc/apache2/sites-available/nextcloud.conf /etc/apache2/sites-enabled/nextcloud.conf
 service apache2 restart
