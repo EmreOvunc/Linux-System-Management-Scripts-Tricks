@@ -5,7 +5,6 @@ wget https://download.revive-adserver.com/revive-adserver-5.2.0.zip;
 unzip revive-adserver-5.2.0.zip;
 mv revive-adserver-5.2.0 revive;
 chown -R www-data:www-data revive;
-#
 mysql -u root -p
    CREATE DATABASE revive_db;
    CREATE USER 'revive_user'@'localhost' IDENTIFIED BY 'password';
