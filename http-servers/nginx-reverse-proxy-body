@@ -1,0 +1,58 @@
+#Configuration
+sudo nano /etc/nginx/nginx.conf
+	http {
+		log_format bodylog '\n[$remote_addr] - $request \nHeaders: "$req_headers" \nBody: "$req_body"\nResponse:"$resp_body"';
+	     }
+
+
+#Symbolic link to use
+sudo nano /etc/nginx/sites-available/default.conf
+    server {
+
+        lua_need_request_body on;
+
+        set $resp_body "";
+        set $req_body "";
+        set $req_headers "";
+
+	listen 10.0.0.1:80;
+	
+	proxy_buffering off;
+
+	access_log /var/log/nginx/reverse_access.log bodylog;
+	error_log /var/log/nginx/reverse_error.log;
+	
+
+        client_body_buffer_size 16k;
+        client_max_body_size 16k;
+
+        rewrite_by_lua_block {
+            local req_headers = "";
+            ngx.var.req_body = ngx.req.get_body_data();
+            local h, err = ngx.req.get_headers()
+            for k, v in pairs(h) do
+                req_headers = req_headers .. k .. ": " .. v .. "|";
+            end
+
+            ngx.var.req_headers = req_headers;
+        }
+
+        body_filter_by_lua '
+        local resp_body = string.sub(ngx.arg[1], 1, 1000)
+        ngx.ctx.buffered = (ngx.ctx.buffered or "") .. resp_body
+        if ngx.arg[2] then
+          ngx.var.resp_body = ngx.ctx.buffered
+        end
+        ';
+
+	location / { 
+		proxy_pass http://10.0.0.2:80;
+	}
+    }
+
+
+#Test
+nginx -t
+
+#Reload
+sudo nginx -s reload
