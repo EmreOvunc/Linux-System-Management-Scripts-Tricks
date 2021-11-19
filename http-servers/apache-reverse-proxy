@@ -1,0 +1,15 @@
+#sudo a2enmod proxy
+#sudo a2enmod proxy_http
+#nano /etc/apache2/sites-available/000-default.conf
+<VirtualHost *:80>
+    ProxyPreserveHost On
+
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+
+    LogLevel error
+    <Location "/">
+        ProxyPass http://10.0.0.1/
+        ProxyPassReverse http://10.0.0.1/
+    </Location>
+</VirtualHost>

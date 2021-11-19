@@ -65,6 +65,7 @@ Linux System Administrator &amp; Engineer Certification Tricks Management Script
 + [x] [apache vhost](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-vhost)
 + [x] [apache basic authentication](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-basic-authentication)
 + [x] [apache restrict extensions](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-restrict-extensions)
++ [x] [apache reverse proxy](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/apache-reverse-proxy)
 + [x] [nginx reverse proxy](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/nginx-reverse-proxy)
 + [x] [nginx reverse proxy body](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/nginx-reverse-proxy-body)
 + [x] [htaccess](https://github.com/EmreOvunc/Linux-System-Management-Scripts-Tricks/blob/master/http-servers/htaccess)
